@@ -8,7 +8,9 @@ It came with 24T, I wanted to quickly write a bash script to see what state the 
 
 I vibe coded.  Turns out the disks were mostly fine.
 
-This is the result:
+This is the result, 
+
+(864 lines of bash and awk that appear to be mostly correct):
 
 ```
 asciinema rec --overwrite smart.asc
