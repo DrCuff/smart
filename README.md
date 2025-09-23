@@ -2,6 +2,8 @@
 
 There is no need for any of this.  Not at all.  
 
+I will go to [any length on bluesky to attempt, and fail to be hilarious](https://bsky.app/profile/chromamagic.com/post/3lzhjlxkbkk2z)
+
 Background story, I bought a 6 drive thunderbolt from ebay for two hundred notes. It used to cost about 2 grand and came in 6 and 12TB variants.  In 2011, cnet wasn't all that impressed:  
 
 [https://www.cnet.com/reviews/promise-pegasus-r6-review/](https://www.cnet.com/reviews/promise-pegasus-r6-review/)
@@ -11,7 +13,7 @@ Mine came with 24T (6x4T drives), and I wanted to quickly write a bash script to
 ![me](https://github.com/DrCuff/smart/blob/main/bench.png)
 ## I vibe coded.  Biggly.  Much vibe.  All of the vibe.
 
-I also crashed every LLM I tried. Turns out the disks were mostly fine. There's still some off by 1024 going on here that I'll diagnose at some point. This folks. This is the result:
+I also crashed every LLM I tried. Turns out the disks were mostly fine. At no point did the 2011 RAID5 array crash at all. There's still some off by 1024 going on here that I'll diagnose at some point. This folks. This is the result:
 
 864 lines of bash and awk that appear to be mostly correct, the output is groovy:
 
