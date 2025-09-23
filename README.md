@@ -1,16 +1,19 @@
-# smart
+# smart vibes: on vibe coding ~900 lines of bash and awk... 
 
 There is no need for any of this.  Not at all.  
 
-Background story, I bought a 6 drive thunderbolt from ebay for two hundred notes.  
+Background story, I bought a 6 drive thunderbolt from ebay for two hundred notes. It used to cost about 2 grand and came in 6 and 12TB variants.  In 2011, cnet wasn't all that impressed:  
 
-It came with 24T, I wanted to quickly write a bash script to see what state the drives were in.  
+[https://www.cnet.com/reviews/promise-pegasus-r6-review/](https://www.cnet.com/reviews/promise-pegasus-r6-review/)
 
-I vibe coded.  Turns out the disks were mostly fine.
+Mine came with 24T (6x4T drives), and I wanted to quickly write a bash script to see what state the drives were in.  It actually benches nicely better than cnet said it did by the power of ```dd if=/dev/zero of=test.dat bs=1024k count=10000```
 
-This is the result, 
+![me](https://github.com/DrCuff/smart/blob/main/bench.png)
+I vibe coded.  Turns out the disks were mostly fine.  There's still some off by 1024 going on here that I'll diagnose at some point.
 
-(864 lines of bash and awk that appear to be mostly correct):
+This folks.  This is the result:
+
+864 lines of bash and awk that appear to be mostly correct, the output is groovy:
 
 ```
 asciinema rec --overwrite smart.asc
